@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_activations",
+  "info": {
+    "displayName": "Activations",
+    "icon": "rocket",
+    "description": "Brand activation cards"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "highlightedTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.activation"
+    }
+  }
+}

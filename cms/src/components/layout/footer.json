@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "highlightedTitle": {
+      "type": "string"
+    },
+    "newsletterPlaceholder": {
+      "type": "string",
+      "default": "your@email.com"
+    },
+    "newsletterButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "newsletterNote": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "linkGroups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link-group"
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_flavor_carousels",
+  "info": {
+    "displayName": "Flavor carousel",
+    "icon": "apps",
+    "description": "Pick and order the flavors to showcase"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "highlightedTitle": {
+      "type": "string"
+    },
+    "flavors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flavor.flavor"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "bulletList",
+    "description": "Formula & benefits card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": ["zap", "flame", "brain", "sparkles", "dumbbell", "building", "calendar", "heart", "leaf", "rocket"],
+      "default": "zap",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "accentColor": {
+      "type": "string",
+      "regex": "^#[0-9A-Fa-f]{6}$",
+      "default": "#AFFF00"
+    }
+  }
+}

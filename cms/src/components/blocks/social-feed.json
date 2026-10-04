@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_social_feeds",
+  "info": {
+    "displayName": "Social feed",
+    "icon": "picture",
+    "description": "Instagram grid"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "highlightedTitle": {
+      "type": "string"
+    },
+    "posts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-post"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

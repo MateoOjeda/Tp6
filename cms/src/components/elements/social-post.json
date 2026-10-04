@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_social_posts",
+  "info": {
+    "displayName": "Social post",
+    "icon": "picture",
+    "description": "Instagram tile"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "likes": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

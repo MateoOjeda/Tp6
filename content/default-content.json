@@ -1,0 +1,166 @@
+{
+  "flavors": [
+    {
+      "name": "Lemon Lime",
+      "slug": "lemon-lime",
+      "tagline": "Citrus Shock",
+      "description": "A zesty explosion of natural lemon and lime that wakes you up instantly.",
+      "image": { "src": "images/drink2.png", "alt": "GiGi Energy Drink - Lemon Lime Flavour" },
+      "accentColor": "#84cc16",
+      "badges": [{ "label": "Zero Sugar" }, { "label": "Metabolism Boost" }, { "label": "Natural Flavours" }, { "label": "Vitamin Rich" }],
+      "isMystery": false,
+      "ctaLabel": "Add to Cart",
+      "comingSoonLabel": "Dropping soon..."
+    },
+    {
+      "name": "Pineapple Coconut",
+      "slug": "pineapple-coconut",
+      "tagline": "Tropical Rush",
+      "description": "Island vibes with every sip. Transport yourself to paradise.",
+      "image": { "src": "images/drink1.png", "alt": "GiGi Energy Drink - Pineapple Coconut Flavour" },
+      "accentColor": "#f59e0b",
+      "badges": [{ "label": "Zero Sugar" }, { "label": "Metabolism Boost" }, { "label": "Natural Flavours" }, { "label": "Vitamin Rich" }],
+      "isMystery": false,
+      "ctaLabel": "Add to Cart",
+      "comingSoonLabel": "Dropping soon..."
+    },
+    {
+      "name": "Mystery",
+      "slug": "mystery",
+      "tagline": "Coming Soon",
+      "description": "Something epic is brewing... Stay tuned.",
+      "image": { "src": "mystery-energy-drink-can-silhouette.jpg", "alt": "Mystery flavour silhouette" },
+      "accentColor": "#AFFF00",
+      "badges": [],
+      "isMystery": true,
+      "ctaLabel": "Add to Cart",
+      "comingSoonLabel": "Dropping soon..."
+    }
+  ],
+  "global": {
+    "siteName": "GiGi Energy",
+    "defaultSeo": {
+      "metaTitle": "GiGi Energy Drink | Dream Big, Drink GiGi",
+      "metaDescription": "Zero sugar, 75mg caffeine, 100% natural flavors. The energy drink for dreamers and doers.",
+      "keywords": "energy drink, zero sugar, natural energy, GiGi, caffeine",
+      "shareImage": null
+    },
+    "navLinks": [
+      { "label": "Home", "href": "#hero", "isExternal": false },
+      { "label": "Flavours", "href": "#flavours", "isExternal": false },
+      { "label": "Creators", "href": "#creators", "isExternal": false },
+      { "label": "Distributors", "href": "#distributors", "isExternal": false },
+      { "label": "Careers", "href": "#careers", "isExternal": false }
+    ],
+    "navCta": { "label": "Get 25% Off", "href": "#careers", "isExternal": false },
+    "footer": {
+      "title": "READY TO",
+      "highlightedTitle": "LEVEL UP?",
+      "newsletterPlaceholder": "your@email.com",
+      "newsletterButtonLabel": "Get 25% Off",
+      "newsletterNote": "Join 50k+ dreamers. No spam, just energy.",
+      "description": "GiGi Energy is a better-for-you energy drink crafted with natural flavors, zero sugar, and a clean energy formula. Fuel your ambition without the crash.",
+      "linkGroups": [
+        {
+          "title": "Products",
+          "links": [
+            { "label": "Lemon Lime", "href": "#flavours", "isExternal": false },
+            { "label": "Pineapple Coconut", "href": "#flavours", "isExternal": false },
+            { "label": "Mystery", "href": "#flavours", "isExternal": false },
+            { "label": "Bundles", "href": "#flavours", "isExternal": false }
+          ]
+        },
+        {
+          "title": "Quick Links",
+          "links": [
+            { "label": "Home", "href": "#hero", "isExternal": false },
+            { "label": "Flavours", "href": "#flavours", "isExternal": false },
+            { "label": "Creators", "href": "#creators", "isExternal": false },
+            { "label": "Distributors", "href": "#distributors", "isExternal": false }
+          ]
+        },
+        {
+          "title": "Company",
+          "links": [
+            { "label": "About", "href": "#", "isExternal": false },
+            { "label": "Careers", "href": "#", "isExternal": false },
+            { "label": "Press", "href": "#", "isExternal": false },
+            { "label": "Contact", "href": "#", "isExternal": false }
+          ]
+        },
+        {
+          "title": "Legal",
+          "links": [
+            { "label": "Privacy Policy", "href": "#", "isExternal": false },
+            { "label": "Terms of Service", "href": "#", "isExternal": false },
+            { "label": "Cookie Policy", "href": "#", "isExternal": false }
+          ]
+        }
+      ],
+      "copyright": "© 2026 GiGi Energy. All rights reserved."
+    }
+  },
+  "landingPage": {
+    "title": "Home",
+    "seo": null,
+    "blocks": [
+      {
+        "__component": "blocks.hero",
+        "eyebrow": "BETTER-FOR-YOU ENERGY DRINK",
+        "title": "FUEL YOUR",
+        "highlightedTitle": "AMBITION",
+        "subtitle": "Zero sugar. Natural flavors. Clean energy that hits different.",
+        "primaryCta": { "label": "Sign Up & Save 25%", "href": "#careers", "isExternal": false },
+        "secondaryCta": { "label": "Explore Flavours", "href": "#flavours", "isExternal": false },
+        "benefits": [{ "label": "Zero Sugar" }, { "label": "75mg Caffeine" }, { "label": "Natural Flavours" }, { "label": "Vitamin B Rich" }],
+        "image": { "src": "images/drink2.png", "alt": "GiGi Energy Drink - Lemon Lime Flavour" }
+      },
+      {
+        "__component": "blocks.flavor-carousel",
+        "eyebrow": "OUR FLAVOURS",
+        "title": "CHOOSE YOUR",
+        "highlightedTitle": "FUEL",
+        "flavors": ["lemon-lime", "pineapple-coconut", "mystery"]
+      },
+      {
+        "__component": "blocks.features-grid",
+        "eyebrow": "What's Inside",
+        "title": "Formula & Benefits",
+        "items": [
+          { "icon": "zap", "value": "75mg", "label": "Natural Caffeine", "description": "Clean energy without the crash", "accentColor": "#AFFF00" },
+          { "icon": "flame", "value": "Zero", "label": "Sugar Added", "description": "All the taste, none of the guilt", "accentColor": "#FF6B35" },
+          { "icon": "brain", "value": "100%", "label": "Mental Clarity", "description": "Enhanced focus & concentration", "accentColor": "#00D4FF" },
+          { "icon": "sparkles", "value": "B12", "label": "Vitamin Complex", "description": "Essential nutrients for energy", "accentColor": "#AFFF00" }
+        ]
+      },
+      {
+        "__component": "blocks.activations",
+        "eyebrow": "ACTIVATIONS",
+        "title": "EXPERIENCE",
+        "highlightedTitle": "GIGI",
+        "description": "From tasting events to corporate partnerships, bring GiGi into your world.",
+        "items": [
+          { "icon": "sparkles", "title": "Free Tasting Events", "description": "Experience GiGi at exclusive tasting events near you.", "cta": { "label": "Find Events", "href": "#", "isExternal": false } },
+          { "icon": "dumbbell", "title": "Gyms & Studios", "description": "Partner with us to fuel your fitness community.", "cta": { "label": "Partner With Us", "href": "#", "isExternal": false } },
+          { "icon": "building", "title": "Corporate Offices", "description": "Power up your workplace. Bulk orders available.", "cta": { "label": "Get Quote", "href": "#", "isExternal": false } },
+          { "icon": "calendar", "title": "Event Organizers", "description": "Sponsor your next event with GiGi energy.", "cta": { "label": "Sponsor Event", "href": "#", "isExternal": false } }
+        ]
+      },
+      {
+        "__component": "blocks.social-feed",
+        "eyebrow": "FOLLOW THE ENERGY",
+        "title": "@GIGIENERGY",
+        "highlightedTitle": ".IN",
+        "posts": [
+          { "image": { "src": "energy-drink-lifestyle-gym-workout.jpg", "alt": "Gym workout with GiGi" }, "likes": "2.4k", "url": "https://instagram.com/gigienergy.in" },
+          { "image": { "src": "content-creator-streaming-setup-neon.jpg", "alt": "Creator streaming setup" }, "likes": "1.8k", "url": "https://instagram.com/gigienergy.in" },
+          { "image": { "src": "skateboarder-urban-street-sunset.jpg", "alt": "Skateboarder at sunset" }, "likes": "3.2k", "url": "https://instagram.com/gigienergy.in" },
+          { "image": { "src": "student-studying-library-late-night.jpg", "alt": "Student studying late at night" }, "likes": "956", "url": "https://instagram.com/gigienergy.in" },
+          { "image": { "src": "entrepreneur-startup-office-meeting.jpg", "alt": "Startup office meeting" }, "likes": "1.5k", "url": "https://instagram.com/gigienergy.in" },
+          { "image": { "src": "athlete-fitness-morning-routine.jpg", "alt": "Athlete morning routine" }, "likes": "2.1k", "url": "https://instagram.com/gigienergy.in" }
+        ],
+        "cta": { "label": "Follow @gigienergy.in", "href": "https://instagram.com/gigienergy.in", "isExternal": true }
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flavors",
+  "info": {
+    "singularName": "flavor",
+    "pluralName": "flavors",
+    "displayName": "Flavor",
+    "description": "Product flavors shown in the carousel and footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "accentColor": {
+      "type": "string",
+      "regex": "^#[0-9A-Fa-f]{6}$",
+      "default": "#AFFF00",
+      "required": true
+    },
+    "badges": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tag"
+    },
+    "isMystery": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaLabel": {
+      "type": "string",
+      "default": "Add to Cart"
+    },
+    "comingSoonLabel": {
+      "type": "string",
+      "default": "Dropping soon..."
+    }
+  }
+}

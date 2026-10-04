@@ -1,0 +1,14 @@
+node_modules/
+.tmp/
+.cache/
+dist/
+build/
+.strapi/
+.strapi-updater.json
+exports/
+*.db
+.env
+.env.*
+!.env.example
+public/uploads/*
+!public/uploads/.gitkeep

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_activations",
+  "info": {
+    "displayName": "Activation",
+    "icon": "rocket",
+    "description": "Brand activation card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": ["zap", "flame", "brain", "sparkles", "dumbbell", "building", "calendar", "heart", "leaf", "rocket"],
+      "default": "sparkles",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}
